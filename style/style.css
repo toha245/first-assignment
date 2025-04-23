@@ -102,3 +102,59 @@
     background-color: rgb(4, 165, 213);
 }
 
+
+/* second-pert */
+
+
+#second-part .title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+#second-part .title .second-line{
+    line-height: 26px;
+    margin-right: 144px;
+    margin-left: 144px;
+}
+
+
+#second-part .first-box{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 48px;
+    
+    
+}
+
+
+#second-part .first-box .write .toha{
+    line-height: 45px;
+    width: 390px;
+}
+
+#second-part .first-box .write .sub-title{
+    line-height: 30px;
+    
+    width: 468px;
+}
+
+#second-part .first-box .write{
+    
+}
+
+#second-part .first-box .image-right img{
+    width: 274px;
+    height: 240px;
+    padding-top: 48px;
+    
+}
+
+#second-part .first-box .write .btn-container button{
+    padding: 10px;
+    background-color: rgb(180, 180, 185);
+    border: none;
+    border-radius: 5px;
+    
+}
