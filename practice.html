@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Milestone-1 </title>
+    <style>
+        a{
+            color: gray;
+            text-decoration: none;
+        }
+        input:hover{
+            
+            background-color: yellowgreen;
+        }
+        fieldset label{
+            display: block;
+           
+            margin-bottom: 5px;
+        }
+
+        #second input{
+            display: block;
+            margin-bottom: 5px;
+        }
+        input::placeholder{
+            color: firebrick;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section>
+        <form id="first">
+            <fieldset>
+                <legend>choose two books in these books</legend>
+                <label for="books">
+                    <input type="checkbox" name="books" id="books">Zero To Hero
+                </label>
+                <label for="book">
+                    <input type="checkbox" name="books" id="book">Easy English
+                </label>
+                <label for="look">
+                    <input type="checkbox" name="books" id="look">Advanced English
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Choose the one of three</legend>
+                <label for="rice">
+                    <input type="radio" name="b" id="rice">Rice
+                </label>
+                <label for="kacchi">
+                    <input type="radio" name="b" id="kacchi">Kacchi
+                </label>
+                <label for="polaw">
+                    <input type="radio" name="b" id="polaw">Polaw
+                </label>
+                
+            </fieldset>
+            <fieldset>
+                
+                <legend id="comment"><label for="comment">Give a Feedback</label></legend>
+                <label for="comment">
+                    <textarea placeholder="Write a feedback" name="" id="comment" cols="30" rows="10"></textarea>
+                </label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        <div>
+            <form id="second">
+                <label> User Name :
+                    <input type="text" placeholder="User Name">
+                </label>
+                <label for="Email"> Your Email : 
+                    <input type="email" name="" placeholder="Your Email" id="Email">
+                </label>
+                <label for="Password"> Password
+                    <input type="password" placeholder="Your Password" name="" id="Password">
+                </label>
+            </form>
+        </div>
+
+        <div>
+        <a href="images/facebook.png" download="f">download</a>
+        <a target="_blank" href="images/css.png">image</a>
+        <button style="border: none;" title="Click Me">Click Me</button>
+        <button disabled>Ok</button>
+        </div>
+    </section>
+</body>
+</html>
