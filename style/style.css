@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+
+
+/* font size */
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-20{
+    font-size: 20px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+.font-32{
+    font-size: 32px;
+}
+
+/* font weight */
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.extra-bold{
+    font-weight: 800;
+}
+
+
+#head .header{
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+#head .header .container .title{
+    margin: 0;
+    margin-left: 150px;
+    font-size: 28px;
+    margin-top: 50px;
+    background-color: tomato;
+}
+
+#head .header .btn-container{
+    margin-right: 174px;
+    margin-top: 38px;
+}
+
+#head .header .btn-container .btn{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: tomato;
+}
+
+/* first image */
+
+#title{
+    background-image: url(../images/Hero-bg.png);
+    background-color: rgb(164, 192, 244);
+    margin-top: 48px;
+    margin-bottom: 75px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#title .second-pert .first-line{
+    font-size: 48px;
+    margin-right: 221px;
+    margin-left: 221px;
+    margin-bottom: 20px;
+}
+
+#title .second-pert .second-line{
+    margin-right: 294px;
+    margin-left: 294px;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+
+#title .second-pert .btn-container .btn{
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(4, 165, 213);
+}
+
