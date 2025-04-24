@@ -365,5 +365,34 @@
     padding: 64px 228px 64px 228px;
     margin-right: 150px;
     margin-left: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
 }
 
+#footer .first .t{
+    margin-bottom: 30px;
+}
+
+#footer .first .one{
+    padding: 15px 150px 15px 20px;
+}
+
+#footer .first .two{
+    padding: 14px;
+}
+
+#footer .last-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: #e5e5e6;
+}
+
+#footer .last-line .images img{
+    padding-right: 10px;
+
+}
