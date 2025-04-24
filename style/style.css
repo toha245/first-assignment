@@ -222,3 +222,56 @@
 
 /* 4th part */
 
+#fourth-part{
+    margin-bottom: 100px;
+}
+
+#fourth-part .first{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#fourth-part .first .sub-title{
+    margin-right: 294px;
+    margin-left: 294px;
+}
+
+#fourth-part .second{
+    display: flex;
+    gap: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
+    
+}
+
+#fourth-part .second .box .pera{
+    line-height: 25px;
+    color: #13193399;
+}
+
+#fourth-part .second .box{
+    border: 2px solid salmon;
+    padding: 40px;
+}
+
+#fourth-part .second .btn-container button{
+    padding: 10px;
+    background-color: rgb(180, 180, 185);
+    border: none;
+    border-radius: 5px;
+}
+
+#fourth-part .second .card-1{
+    background-color:rgb(17, 223, 246);
+}
+
+#fourth-part .second .card-2{
+    background-color: rgb(214, 215, 218);
+}
+
+#fourth-part .second .card-3{
+    background-color: rgb(245, 249, 245);
+}
