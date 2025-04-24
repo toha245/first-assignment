@@ -226,6 +226,9 @@
 
 #fourth-part{
     margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #fourth-part .first{
@@ -282,21 +285,85 @@
 
 /* 5th part */
 
-#fifth-part .container .first{
+#fifth-part .container .main{
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 48px;
 }
 
-#fifth-part .container .first .title{
+#fifth-part .container .main .title{
     margin-bottom: 20px;
 }
 
 
-#fifth-part .container .first .sub-title{
+#fifth-part .container .main .sub-title{
     line-height: 30px;
     margin-right: 294px;
     margin-left: 294px;
+}
+
+
+#fifth-part .container .boxes{
+    margin: 0 auto;
+    margin-right: 145px;
+    margin-left: 145px;
+    
+    
+}
+
+#fifth-part .container .first-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    padding: 10px 35px 35px 35px;
+    background-color: #f6f9fb;
+}
+
+#fifth-part .container .image-container img{
+    padding-top: 42px;
+    width: 95px;
+    height: 85px;
+}
+
+#fifth-part .container .second-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    padding: 10px 35px 35px 35px;
+    background-color: #f6f9fb;
+}
+
+#fifth-part .container .third-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    padding: 10px 35px 35px 35px;
+    background-color: #f6f9fb;
+}
+
+#fifth-part .container .fourth-box{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    padding: 10px 35px 35px 35px;
+    background-color: #f6f9fb;
+}
+
+#fifth-part .container a{
+    color: black;
+}
+
+
+#footer .first{
+    background-image: url(../images/handshake.jpg);
+    background-size: 100% 100%;
+    padding: 64px 228px 64px 228px;
+    margin-right: 150px;
+    margin-left: 150px;
 }
 
